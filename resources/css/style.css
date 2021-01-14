@@ -6,3 +6,32 @@ html {
     opacity:0.9;
     text-align: center;
 }
+
+header{
+    height:69px;
+    width:99%;
+    border: 1px solid seashell;
+    position: fixed;
+    display:flex;
+    justify-content:space-between;
+}
+
+img{
+    height:50px;
+    margin-left:10px;
+    vertical-align:bottom;
+    align-self:center;
+}
+
+nav{
+    
+    margin-right:10px; 
+}
+
+li{
+    display:inline;  
+}
+
+li a{
+    color:seashell;
+}
