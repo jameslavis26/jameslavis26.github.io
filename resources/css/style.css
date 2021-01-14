@@ -46,6 +46,7 @@ main{
     position:relative;
     top:69px;
     display:block;
+    width: 1200px;
 }
 
 /* Styles Mission Statement*/
@@ -79,4 +80,28 @@ main{
     width:300px;
     height:auto;
     padding:10px;
+}
+
+/*Styles the locations section*/
+#locations{
+    height:500px;
+    background-image: url(../media/images/img-locations-background.webp);
+    display:flex;
+    align-items:center;
+    background-position:center;
+}
+
+#addresses{
+    display:flex;
+    justify-content:center;
+}
+
+.address{
+    background-color: black;
+    width:300px;
+    margin:15px 40px;
+}
+
+footer{
+    height:100px;
 }
